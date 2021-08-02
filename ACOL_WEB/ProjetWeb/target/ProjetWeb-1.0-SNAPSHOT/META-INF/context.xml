@@ -1,0 +1,14 @@
+<Context path="/ProjetWeb">
+  <Resource
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="oracle.jdbc.OracleDriver"
+    url="jdbc:oracle:thin:@oracle1.ensimag.fr:1521:oracle1"
+    maxTotal="5"
+    maxIdle="1"
+    maxWaitMillis="20000"
+    name="jdbc/ProjetWeb"
+    password="159753"
+    username="sadkim"
+  />
+</Context>

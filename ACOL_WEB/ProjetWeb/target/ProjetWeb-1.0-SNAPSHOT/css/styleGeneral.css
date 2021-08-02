@@ -1,0 +1,380 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 13, 2021, 10:43:56 AM
+    Author     : ensimag
+*/
+
+body {
+    color: white;
+    background-color: black;
+    cursor:url(http://ani.cursors-4u.net/others/oth-9/oth844.cur),progress!important;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    display: block;
+    width : 200px;
+    height: 54px;
+    line-height: 50%;
+    font-size: 20px;
+    transition : .5s !important;
+}
+#but1{
+    border-color: #f79f1f;
+    background-color: #f79f1f;
+    border-radius: 10px;
+    color: black;
+}
+#but1:hover{
+    background-color: #d58c23;
+    font-size: 24px;
+}
+
+#but2{
+    background-color: black;
+    border-radius: 10px;
+    color : #f79f1f;
+    border-color: #f79f1f;
+
+}
+#but2:hover{
+    font-size: 24px;
+}
+#indexBut {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20%;
+}
+#title{
+    font-size: 40px;
+}
+#slogan {
+    color: #f79f1f;
+    font-size: 44px;
+}
+.centres{
+    text-align: center;
+}
+#right-side{
+    width: 49%;
+    background-image: url("../images/7064.png");
+    background-size: cover;
+    background-origin: border-box;    
+}
+#left-side{
+    padding-top:2%;
+    
+    width: 49%;
+}
+#all{
+    height:600px;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.submit {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+#but3 {
+    
+    margin-left: 20%;
+    width: 420px;
+    margin-top: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,159,31,1) 100%, rgba(0,212,255,1) 100%); 
+    border-top-color: #f79f1f;
+    border-right-color: #f79f1f;
+    border-left: black;
+    border-bottom: black;
+    border-radius: 10px;
+    color: white;
+}
+.flexDisplay{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+
+.flexDisplayColumn {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: 600px;
+}
+
+.flexDisplayColumn img {
+    width: 80%;
+    height: 100%;
+}
+
+#but3:hover{
+    font-size: 24px;
+}
+
+#conn{
+    font-size: 40px;
+    text-align: center;
+    color: #f79f1f;
+    margin-top: 30px;
+}
+#forma li{
+    font-size: 30px;
+    margin-top: 10px;
+}
+#forma li input {
+    width: 350px;
+    height: 50px;
+}
+#forma{
+    margin-left:34%;
+}
+ul {
+    list-style-type: none;
+}
+.but1{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 19px;
+    height:50px;
+    width: 350px;
+    border-color: #f79f1f;
+    background-color: #f79f1f;
+    border-radius: 10px;
+    color: black;
+}
+.but1:hover{
+    background-color: #d58c23;
+    font-size: 24px;
+    transition : .5s !important;
+}
+#submit{
+    margin-left: 4.5%;
+}
+.but2{
+    background-color: black;
+    border-radius: 10px;
+    color : #f79f1f;
+    border-color: #f79f1f;
+
+}
+.but2:hover{
+    font-size: 24px;
+}
+#register{
+    margin-left: 42.5%;
+}
+#line {
+    margin-left: 37%;
+    width: 350px;
+}
+#side{
+    position: fixed;
+    top: 30%;
+    right: 0%;
+    background-color: #f79f1f;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: black;
+    width: 260px;
+}
+#sideButton {
+    margin-left: 10%;
+    margin-top: 15px;
+    color: #f79f1f;
+    background-color: black;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    transition : .5s !important;
+}
+
+#sideButton:hover{
+    font-size: 23px;
+}
+
+#paraTitle{
+    color: #f79f1f;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+#contenuPara{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 35px;
+    font-size: 25px;
+}
+#tableChoix{
+    background-color: #f79f1f;
+    margin-top:25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.choix {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    color: black;
+}
+
+#queFaire{
+    margin-top:30px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+#visiteur{
+    color: blanchedalmond;
+    height: 50px;
+    font-size: 20px;
+    transition : .5s !important;
+}
+#visiteur:hover{
+    font-size: 23px;
+}
+
+.imgaccueil{
+    width: 100%;
+    height: 70%;
+    
+}
+
+#bienvenueAccueil {
+    color: #f79f1f;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.accueiltext {
+    margin-top:25px;    
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    transition : .5s !important;
+    
+}
+
+#contribuer {
+    text-align: center;
+    color: #f79f1f;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+#titre{
+    color: #f79f1f;
+font-size: 30px;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+.histoireLine {
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.histoire {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.action {
+    color: red;
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.action {
+    color: red;
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 23px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 35px;
+}
+
+#titreLecture{
+    text-align:center;
+    font-size: 40px;
+    color: #f79f1f;
+    margin-top : 15px;
+}
+
+thLecture {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.thLecture {
+    font-size: 30px;
+    width: 49%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titrehist {
+    font-size: 20px;
+    text-align: center;
+    width: 49%;
+    margin-top: 10px;
+}
+.titrehist {
+    margin-right: 75px;
+}
+
+.auteurs {
+    font-size: 22px;
+    line-height: 45px;
+    width: 49%;
+    height: 50px;
+    }
+    
+    .actionleft {
+    font-size: 23px;
+}
+    .actionChoix {
+    font-size: 23px;
+    background-color:#f79f1f;
+    color: black;
+    margin-left : 15px;
+}
